@@ -1,0 +1,30 @@
+theme = "gruvbox"
+
+[editor]
+true-color = true
+end-of-line-diagnostics = "hint"
+bufferline = "multiple"
+cursorline = true
+color-modes = true
+
+[editor.lsp]
+display-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+display-signature-help-docs = true
+snippets = true
+
+[editor.statusline]
+left=["mode", "spinner", "register"]
+center=["file-name", "read-only-indicator", "file-modification-indicator"]
+right=["diagnostics", "position", "selections"]
+separator="|||"
+
+[editor.file-picker]
+parents = false
+
+[editor.indent-guides]
+render = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"

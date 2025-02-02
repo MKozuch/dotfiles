@@ -1,0 +1,31 @@
+{
+  "include": "~/.config/waybar/modules.json",
+  "layer": "top",
+  "spacing": 10,
+  "height": 0,
+  "margin-top": 8,
+  "margin-right": 8,
+  "margin-bottom": 0,
+  "margin-left": 8,
+  "fixed-center": true,
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/submap",
+    "wlr/taskbar"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "battery",
+    "network",
+    "pulseaudio",
+    "bluetooth",
+    "group/hardware",
+    //"tray",
+    "battery",
+    "custom/exit"
+  ]
+}
